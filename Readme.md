@@ -1,32 +1,26 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Hangman is a game to test your knowledge about vocabularies. The words will be chosen by the computer for the player to guess. There will be a dash for each letter in the words to give the player a hint about the number of the letters in the words. The player has to guess the words right before they miss them six times to win the game. However, if the player misses six shots, they will lose the game. Hangman is a fun game for people of all ages, and while playing it, they can improve their vocabulary.
 
-{Provide a description of the software that you wrote to demonstrate the C++ language.}
-
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Hangman video](https://www.youtube.com/watch?v=FElaQt6UT_k)
 
 # Development Environment
-
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+This game was created in C++ by including #include <iostream>.
+#include <vector>.  To play the game, you must have VS Code or Visual Studio and a compiler. This Readme.md file contains instructions on how to install those applications.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+
+- [How to install Vs Code](https://code.visualstudio.com/download)
+- [How to install Visual Studio](https://visualstudio.microsoft.com/downloads/)
+- [How to install a compiler](https://osdn.net/projects/mingw/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+A list of things that I need to fix, improve, and add in the future.
 
-- Item 1
-- Item 2
-- Item 3
+- Add more words to the games
+- Add point to the game
+- Add levels to the game, and the game will get harder and harder the more players get a lot of words correct.
+- Instead of giving the user a hint in the form of a letter, we could draw them a picture instead.
